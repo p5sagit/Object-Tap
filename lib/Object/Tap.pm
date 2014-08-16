@@ -40,7 +40,7 @@ You can also pass extra args -
 
   $obj->$_tap(sub { warn "Got arg: $_[1]" }, 'arg');
 
-or use a method name instead of a sub name -
+or use a method name instead of a sub ref -
 
   my $thing = My::Class->new(...)->$_tap(set_foo => 1);
 
