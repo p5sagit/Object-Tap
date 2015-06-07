@@ -1,0 +1,5 @@
+/.ackrc
+/.build
+!/.gitignore
+/Object-Tap-*/
+/Object-Tap-*.tar.gz
