@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use base qw(Exporter);
 
-our $VERSION = '1.000006';
+our $VERSION = '1.000007';
 
 our @EXPORT = qw($_tap);
 
